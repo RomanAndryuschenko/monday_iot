@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <img class="logo" src="/code/img/chip.svg" alt="">
+                <a id="monday" class="navbar-brand" href="#">MONDAY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav top-menu">
+                    <li class="nav-item">
+                        <a id="shop" class="nav-link active" aria-current="page" href="/code/index.html">HOME</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a id="shop" class="nav-link active" aria-current="page" href="#">SHOP</a>
+                      </li>           
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="shop" class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#modal-card">
+                                <img id="card" src="/code/img/korzina.svg" alt="card">
+                            </a>
+                            <div class="modal fade" id="modal-card" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel">YOUR CARD</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ...
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CONTINUE</button>
+                                      <button type="button" class="btn btn-primary">GO TO PURCHASE</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                          </li>           
+                        <li class="nav-item">
+                            <a class="nav-link" href="/code/user.html">
+                                <img class="logo-user" src="/code/img/user.svg" alt="">
+                            </a>
+                            
+                        </li> 
+                    </ul>
+            
+                    </li>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    <div class="sign-in">
+        <img class="build" src="/code/img/24.jpg" alt="build">
+        <form action="" class="zakaz_form" id="add-form">
+        <div class="form">
+            <h1 id="contact">
+                LOGIN
+            </h1>
+            <input class="input" required type="email" id="email-user" minlength="6" name="email-user" placeholder="E-mail">
+            <input class="input" required type="password" id="pssword" minlength="8" name="password" placeholder="Password">
+            <button class="button" type="submit">SIGN IN</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
