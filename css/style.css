@@ -1,11 +1,11 @@
 @font-face {
     font-family: Iceland;
-    src: url(/code/source/Iceland/Iceland-Regular.ttf);
+    src: url(/source/Iceland/Iceland-Regular.ttf);
 }
 
 @font-face {
     font-family: PT Mono;
-    src: url(/code/source/PT_Mono/);
+    src: url(/source/PT_Mono/);
 }
 
 .button_zakaz{
